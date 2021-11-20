@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+$color1:rgb(245, 211, 207);
+$color2: white;
+$color3: black;
+$gradient:linear-gradient(11deg, rgba(245, 211, 207, 1) 0%, rgba(172, 165, 164, 0.98) 50%, rgba(204, 127, 117, 1) 100%);
+
+$font1:'Franklin Gothic Medium';
+
+$var1:100%;
+$var2:50%;
+
+
+$letra1:15px;
+
+
+
+/*--------------Encabezado-------------*/
+
+.headerInfo__promo--animation {
+
+    color: $color3;
+    background-color: $color1;
+    text-align: center;
+    font-family: $font1;
+    font-size: $letra1 + 2;
+    border: 3px solid $color3;
+    animation-name: un_efecto;
+    animation-duration: 5s;
+    animation-delay: 1s;
+
+}
+
+
+@keyframes un_efecto {
+
+    0% {
+        width: ($var1)-($var2);
+        background: $color1;
+        background: $gradient;
+
+    }
+
+    25% {
+        width: 100%;
+
+    }
+
+    50% {
+        width: ($var1)-($var2);
+        background: $color1;
+        background: $gradient;
+    }
+
+    75% {
+        width: 100%;
+
+    }
+
+    100% {
+        width: 100%;
+        background-color: $color1;
+
+    }
+
+}
+
+/*--------------Mobil Firts-------------*/
+
+@media only screen and (min-width: 1200px) {
+    .headerInfo__promo--animation {
+
+        background-color: $color1;
+        width: auto;
+        height: auto;
+
+
+    }
+
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex end;
+    background-color: $color2;
+
+
+}
+
+/*--------------Mobil Firts-------------*/
+
+@media only screen and (min-width: 1200px) {
+    .encabezado {
+
+        background-color: $color2;
+    }
+
+}
+
+
+.encabezado__botton--imgTransition {
+    display: flex;
+    align-items: flex-end;
+    height: 15px;
+    width: 10%;
+    padding-top: 30px;
+    margin-top: 160px;
+    transition: transform 0.5s ease;
+
+
+}
+
+
+.lista1:hover {
+    transform: translate(0.5em)
+}
+
+.lista2:hover {
+    transform: translate(0.5em)
+}
+
+
+
+/*--------------Mobil Firts-------------*/
+
+
+@media only screen and (max-width: 768px) {
+    .encabezado__botton--imgTransition {
+
+        background-color: $color2;
+        text-align: center;
+        align-items: center;
+        display: table-column;
+        height: auto;
+        width: auto;
+        padding-bottom: 3rem;
+
+    }
+
+}
+
+
+.encabezado__botton--imgTransition li {
+
+
+    list-style: none;
+    margin: 0 10px;
+
+}

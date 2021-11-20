@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+$color3: black;
+$color4:grey;
+
+
+$font2:'Arial Narrow';
+
+$letra1:15px;
+
+
+/*----------Pie de Página----------*/
+
+.elFooter__enlaces {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    font-family: $font2;
+    background-color: $color4;
+    text-align: left;
+
+
+}
+
+
+/*--------------Mobil Firts-------------*/
+
+@media only screen and (max-width: 1197px) {
+    .elFooter__enlaces {
+
+        background-color: rgb(78, 78, 78);
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .elFooter__enlaces {
+
+        background-color: rgb(122, 118, 118);
+
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .elFooter__enlaces {
+
+        background-color: $color4;
+    }
+
+
+}
+
+.elFooter__enlaces a {
+
+    text-decoration: none;
+    list-style: none;
+    font-size: $letra1;
+    color: $color3;
+    font-family: $font2;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+
+
+}
+
+.elFooter__enlaces a:hover {
+
+    color: blue;
+}
+
+
+.listado {
+
+    font-size: $letra1;
+    margin-right: 0rem;
+    font-family: $font2;
+    font-weight: bold;
+    text-align: left;
+
+
+
+}
+
+.listado a:hover {
+    color: blue;
+
+}
+
+
+.elFooter li {
+
+    margin: 15px;
+    text-align: left;
+    list-style: none;
+    color: $color3;
+    text-decoration: none;
+    font-size: 15px;
+
+
+}
+
+
+#quieneSomos {
+    color: $color3;
+    text-decoration: none;
+
+}
+
+#quieneSomos:hover {
+
+    color: blue;
+
+}
+
+#contacto {
+    color: $color3;
+    text-decoration: none;
+}
+
+#contacto:hover {
+
+    color: blue;
+}
+
+
+
+
+#rs1 {
+    color: $color3;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+
+}
+
+#rs1:hover {
+
+    transform: translate(0.5em)
+}
+
+#rs2 {
+    @extend #rs1;
+
+}
+
+#rs2:hover {
+    transform: translate(0.5em)
+}
+
+
+.email {
+    color: $color3;
+    text-decoration: none;
+}
+
+.elFooter__resto {
+
+    text-align: center;
+    margin-right: 2rem;
+    font-family: $font2;
+    font-weight: bold;
+
+
+}
+
+.footeer__iframe {
+
+    height: 25%;
+    width: 100%;
+
+
+}
+
+.subir {
+
+    color: $color3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 100px;
+    padding-bottom: 5%;
+
+
+}
+
+.subir:hover {
+
+    color: blue;
+
+
+}

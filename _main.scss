@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+$color1:rgb(245, 211, 207);
+$color2: white;
+$color3: black;
+$color4:grey;
+$gradient:linear-gradient(11deg, rgba(245, 211, 207, 1) 0%, rgba(172, 165, 164, 0.98) 50%, rgba(204, 127, 117, 1) 100%);
+
+$font1:'Franklin Gothic Medium';
+$font2:'Arial Narrow';
+
+$alto:200px;
+
+$letra1:15px;
+$letra2:25px;
+
+/*---------------Secciones Index-Mochilas-Valijas-Accesorios--------------------------*/
+.carousel video {
+
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+
+}
+
+#productosDestacados h1 {
+
+    background-color: $color1;
+    text-align: center;
+    font-family: $font1;
+    font-size: $letra2;
+
+
+}
+
+
+.section2 {
+    background-color: $color2;
+    margin: 2rem;
+
+
+}
+
+.destacados {
+
+    border: 2px solid $color1;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.5s ease;
+    margin: 50px;
+    text-align: center;
+    margin-left: 5%;
+
+}
+
+
+.destacados img:hover {
+
+    transform: scale(1.3, 1.3);
+
+
+}
+
+.destacados h4 {
+
+    font-size: $letra1;
+    padding: 2rem;
+}
+
+#carrito {
+
+    font-size: 13px;
+    background-color: $color4;
+    color: $color3;
+    border: 2px $color4;
+
+}
+
+#carrito:hover {
+    background-color: rgb(59, 58, 58);
+
+}
+
+/*--------------Tabla Bootstrap-------------*/
+.container {
+
+    background: rgb(238, 213, 203);
+    background: rgb(245, 211, 207);
+    background: $gradient;
+    text-align: center;
+    font-family: cursive;
+    font-size: $letra1;
+}
+
+
+
+#todosLosProductos h1 {
+
+    background: $color1;
+    background: rgb(245, 211, 207);
+    background: $gradient;
+    text-align: center;
+    font-family: $font1;
+    font-size: 28px;
+
+}
+
+
+
+/*---------Titulo-"Quienes Somos"---------*/
+
+
+.historia__titulo {
+
+    height: ($alto/4);
+    width: 100%;
+    color: $color4;
+    font-style: normal;
+    font-family: 'STIX Two Text', serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    border: 3px solid rgb(245, 211, 207);
+    text-shadow: 5px 5px 5px coral;
+
+}
+
+/*-----------"Imagen e Historia"-----------------*/
+
+.infoHistoria {
+
+    background-image: url("./img/valijas.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+
+.infohistoria__historia {
+    color: grey;
+    font-family: 'STIX Two Text', serif;
+    font-size: larger;
+    text-align: justify;
+    text-transform: none;
+    margin-bottom: 10px;
+    border: 3px solid $color1;
+
+}
+
+/*----------GRIDS----------*/
+
+.contenedor {
+
+    height: auto;
+    width: 100%;
+    display: grid;
+    padding-left: 0 10px;
+
+
+
+
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+
+
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .contenedor {
+
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+
+}
+
+
+.contenedor__img {
+
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 2px solid $color3;
+
+
+}
+
+/*------------Uso de @each--------*/
+
+$listimg1:(2,
+    4,
+    6,
+    8,
+);
+
+@each $item in $listimg1 {
+    #item-#{$item} {
+
+        background-image: url(img/#{$item}.jpg);
+        background-size: cover;
+
+
+    }
+
+}
+
+#item-1 {
+
+
+    background-image: url(img/logo4.jpg);
+    width: 180px;
+
+}
+
+
+#item-3 {
+
+    background-image: url(img/logo4.jpg);
+    width: 180px;
+
+}
+
+
+
+#item-5 {
+
+    background-image: url(img/logo4.jpg);
+    width: 180px;
+
+}
+
+
+
+#item-7 {
+
+    background-image: url(img/logo4.jpg);
+    width: 180px;
+
+}
+
+
+#item-9 {
+
+    background-image: url(img/logo4.jpg);
+    width: 180px;
+
+
+}
+
+/*----------Sección Contacto----------*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: $color1;
+    background: $gradient;
+}
+
+.consultanos {
+
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.consultanos legend {
+
+    font-size: $letra2;
+
+}
+
+fieldset {
+
+    padding-right: 100px;
+
+
+}

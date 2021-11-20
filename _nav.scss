@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+$color3: black;
+$color4:grey;
+
+
+
+/*-------------Navegador--------------*/
+
+.navbar {
+
+    background-color: $color4;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+
+    color: $color3 !important;
+}
+
+.form-control {
+
+    color: $color3 !important;
+    border: 1px solid $color3 k !important;
+}
+
+.btn-outline-success {
+    color: $color3 !important;
+    border-color: $color3 !important;
+    background-color: $color4 !important;
+
+}

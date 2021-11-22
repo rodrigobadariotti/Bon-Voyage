@@ -186,6 +186,9 @@
   margin: 2rem;
 }
 
+.card-img-top {
+  width: 200px !important;
+
 .destacados {
   border: 2px solid #f5d3cf;
   font-size: 20px;
@@ -194,9 +197,9 @@
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  margin: 50px;
+  margin: 0%;
   text-align: center;
-  margin-left: 5%;
+  margin-left: 0%;
 }
 
 .destacados img:hover {

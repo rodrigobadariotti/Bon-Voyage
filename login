@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos en Mochilas</title>
+    <title>Contacto</title>
 
-    <meta name="description" content="Para todos los días, transporta tu notebook y lo que quieras.">
-    <meta name="keywords" content="PRECIOS MOCHILAS, OFERTAS MOCHILAS, MOCHILAS ECONÓMICAS, COMPRA DE MOCHILAS">
+    <meta name="description" content="Consultanos- Escribinos por acá.">
+    <meta name="keywords" content="CONTACTO BON VOYAGE, TELEFONO DE CONTACTO, NUMERO DE CONTACTO">
 
     <!--Estilos-->
     <link rel="stylesheet" href="estilos.css">
+
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
 </head>
 
 <body>
-
-    <!--Encabezado-->
     <header class="headerInfo">
         <!-- Bloque -->
         <h3 class="headerInfo__promo--animation">
@@ -35,8 +35,8 @@
             <ul class="encabezado__botton--imgTransition">
                 <li class="lista1">
                     <a href="login.html">
-                    <img src="img/usuario.png">
-                </a>
+                        <img src="img/usuario.png">
+                    </a>
                 </li>
                 <li class="lista2">
                     <img src="img/carrito-de-compras.png">
@@ -44,7 +44,6 @@
             </ul>
         </div>
     </header>
-
     <!--Navegador-->
     <div class="navegador">
         <!--bloque-->
@@ -111,47 +110,15 @@
         </div>
     </div>
     </nav>
-    <!--Secciones-fotos-->
+    <!--Usuario-->
     <main>
-        <!--Tarjetas BS4-->
-        <div class="section2__img--card">
-            <!-- Bloque -->
-            <div class="section2">
-                <div class="row">
-                    <div class="destacados col-lg-3 col-md-6 col-sm-12" style="width:200px">
-                        <img class="card-img-top" src="img/mochilaescolar.jpg" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Mochila Primicia</h4>
-                            <p class="card-text">$8.000</p>
-                            <a href="#" class="btn btn-primary" id="carrito">AGREGAR AL CARRITO</a>
-                        </div>
-                    </div>
-                    <div class="destacados col-lg-3 col-md-6 col-sm-12" style="width:200px">
-                        <img class="card-img-top" src="img/mochilaportanotebook.jpg" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Mochila Portanotebok</h4>
-                            <p class="card-text">$15.000</p>
-                            <a href="#" class="btn btn-primary" id="carrito">AGREGAR AL CARRITO</a>
-                        </div>
-                    </div>
-                    <div class="destacados col-lg-3 col-md-6 col-sm-12" style="width:200px">
-                        <img class="card-img-top" src="img/mochila3.jpg" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Mochila Samsonite</h4>
-                            <p class="card-text">$13.000</p>
-                            <a href="#" class="btn btn-primary" id="carrito">AGREGAR AL CARRITO</a>
-                        </div>
-                    </div>
-                    <div class="destacados col-lg-3 col-md-6 col-sm-12" style="width:200px">
-                        <img class="card-img-top" src="img/mochila4.jpg" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Mochila Kipling</h4>
-                            <p class="card-text">$11.000.</p>
-                            <a href="#" class="btn btn-primary" id="carrito">AGREGAR AL CARRITO</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="formularioLogin">
+            <h3>LOGIN</h3>
+            <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+            <input class="controls" type="password" name="Contraseña" value="" placeholder="Contraseña">
+            <input class="button" type="submit" name="" value="Ingresar"><br>
+            <p><a href="#">¿Olvidaste tu Contraseña?</p>
+        </div>
     </main>
     <!--Pie de página-->
     <footer class="elFooter">
@@ -226,7 +193,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>

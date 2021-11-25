@@ -9,17 +9,17 @@
 
 
 
-.error{
-    
+.error {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
-.error h1{
+.error h1 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 2rem;
@@ -27,7 +27,7 @@
 
 }
 
-.error button{ 
+.error button {
 
     padding: 15px 30px;
     border-radius: 15px;
@@ -38,7 +38,7 @@
 }
 
 @media only screen and (max-width: 370px) {
-    .error h1{
+    .error h1 {
 
         font-size: 15px;
     }
@@ -46,7 +46,7 @@
 }
 
 @media only screen and (max-width: 370px) {
-    .error button{
+    .error button {
 
         font-size: 13px;
     }

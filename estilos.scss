@@ -181,8 +181,8 @@ $letra2:25px;
 .btn-outline-success {
     color: $color3 !important;
     border-color: $color3 !important;
-    background-color:$color4 !important;
-  
+    background-color: $color4 !important;
+
 }
 
 
@@ -212,11 +212,12 @@ $letra2:25px;
     margin: 2rem;
 
 
+
 }
 
 .card-img-top {
-  width: 200px !important;
-   
+    width: 170px !important;
+
 }
 
 .destacados {
@@ -558,7 +559,7 @@ fieldset {
 
 /*----------Login------------*/
 
-.formularioLogin{
+.formularioLogin {
 
     background: rgb(245, 211, 207);
     background: linear-gradient(11deg, rgba(245, 211, 207, 1) 0%, rgba(172, 165, 164, 0.98) 50%, rgba(204, 127, 117, 1) 100%);
@@ -567,20 +568,21 @@ fieldset {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+
+
 
 }
 
 
 .formularioLogin h3 {
 
-            text-align: center;
-            font-size: 20px;
-            padding-top: 2rem;
-            padding-bottom: 1rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
 
 }
 
@@ -593,7 +595,9 @@ fieldset {
     background: rgb(245, 211, 207);
     background: linear-gradient(11deg, rgba(245, 211, 207, 1) 0%, rgba(172, 165, 164, 0.98) 50%, rgba(204, 127, 117, 1) 100%);
     font-weight: bold;
-    
+
+
+
 }
 
 .button {
@@ -603,8 +607,7 @@ fieldset {
     background: rgb(245, 211, 207);
     background: linear-gradient(11deg, rgba(245, 211, 207, 1) 0%, rgba(172, 165, 164, 0.98) 50%, rgba(204, 127, 117, 1) 100%);
     font-weight: bold;
-    border: 2px solid gray;   
-          
+    border: 2px solid gray;
 
 
 
@@ -615,24 +618,50 @@ fieldset {
     font-size: 20px;
     font-family: 'Arial Narrow';
     font-weight: bold;
-        
+
+
 
 }
 
-.formularioLogin a{
+.formularioLogin a {
 
     text-decoration: none;
-    color: gray;
-    
-    
+    color: black;
+
+
 
 }
 
-.formularioLogin a:hover{
+.formularioLogin a:hover {
 
+    color: blue;
+
+
+
+}
+
+/*----------Carrito de Compras------------*/
+
+.carritoCompra {
+
+    color: rgb(71, 69, 69);
+    text-align: center;
+    width: 100%;
+    padding: 30px 40px;
+
+
+}
+
+.carritoCompra a {
     color: black;
-    
 
+}
+
+
+.carritoCompra a:hover {
+
+    color: blue;
+    text-decoration: none;
 
 }
 
@@ -643,3 +672,4 @@ fieldset {
 @import "footer";
 @import "error";
 @import "login";
+@import "compras";

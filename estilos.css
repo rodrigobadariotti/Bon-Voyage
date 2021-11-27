@@ -1,10 +1,9 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*--------------Encabezado-------------*/
@@ -16,11 +15,11 @@
   font-size: 17px;
   border: 3px solid black;
   -webkit-animation-name: un_efecto;
-  animation-name: un_efecto;
+          animation-name: un_efecto;
   -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @-webkit-keyframes un_efecto {
@@ -29,21 +28,17 @@
     background: #f5d3cf;
     background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   }
-
   25% {
     width: 100%;
   }
-
   50% {
     width: 50%;
     background: #f5d3cf;
     background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   }
-
   75% {
     width: 100%;
   }
-
   100% {
     width: 100%;
     background-color: #f5d3cf;
@@ -56,21 +51,17 @@
     background: #f5d3cf;
     background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   }
-
   25% {
     width: 100%;
   }
-
   50% {
     width: 50%;
     background: #f5d3cf;
     background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   }
-
   75% {
     width: 100%;
   }
-
   100% {
     width: 100%;
     background-color: #f5d3cf;
@@ -91,11 +82,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: flex end;
-  -ms-flex-align: flex end;
-  align-items: flex end;
+      -ms-flex-align: flex end;
+          align-items: flex end;
   background-color: white;
 }
 
@@ -111,8 +102,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   height: 15px;
   width: 10%;
   padding-top: 30px;
@@ -125,12 +116,12 @@
 
 .lista1:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 .lista2:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 /*--------------Mobil Firts-------------*/
@@ -139,8 +130,8 @@
     background-color: white;
     text-align: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: table-column;
     height: auto;
     width: auto;
@@ -176,9 +167,9 @@
 /*---------------Sección Index--------------------------*/
 .carousel video {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
   height: 50vh;
 }
 
@@ -214,7 +205,7 @@
 
 .destacados img:hover {
   -webkit-transform: scale(1.3, 1.3);
-  transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
 }
 
 .destacados h4 {
@@ -293,8 +284,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: auto;
   padding-top: 2rem;
@@ -324,7 +315,7 @@ fieldset {
   width: 100%;
   height: auto;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   font-family: "Arial Narrow";
   background-color: grey;
   text-align: left;
@@ -336,8 +327,8 @@ fieldset {
     background-color: #4e4e4e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -364,8 +355,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   text-align: left;
 }
 
@@ -412,8 +403,7 @@ fieldset {
   color: blue;
 }
 
-#rs1,
-#rs2 {
+#rs1, #rs2 {
   color: black;
   text-decoration: none;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -422,15 +412,14 @@ fieldset {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
-#rs1:hover,
-#rs2:hover {
+#rs1:hover, #rs2:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 #rs2:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 .email {
@@ -476,11 +465,11 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .formularioLogin h3 {
@@ -547,7 +536,7 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*--------------Encabezado-------------*/
@@ -559,11 +548,11 @@ fieldset {
   font-size: 17px;
   border: 3px solid black;
   -webkit-animation-name: un_efecto;
-  animation-name: un_efecto;
+          animation-name: un_efecto;
   -webkit-animation-duration: 5s;
-  animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 @keyframes un_efecto {
@@ -572,21 +561,17 @@ fieldset {
     background: #f5d3cf;
     background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   }
-
   25% {
     width: 100%;
   }
-
   50% {
     width: 50%;
     background: #f5d3cf;
     background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   }
-
   75% {
     width: 100%;
   }
-
   100% {
     width: 100%;
     background-color: #f5d3cf;
@@ -607,11 +592,11 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: flex end;
-  -ms-flex-align: flex end;
-  align-items: flex end;
+      -ms-flex-align: flex end;
+          align-items: flex end;
   background-color: white;
 }
 
@@ -627,8 +612,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   height: 15px;
   width: 10%;
   padding-top: 30px;
@@ -641,12 +626,12 @@ fieldset {
 
 .lista1:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 .lista2:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 /*--------------Mobil Firts-------------*/
@@ -655,8 +640,8 @@ fieldset {
     background-color: white;
     text-align: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: table-column;
     height: auto;
     width: auto;
@@ -673,7 +658,7 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*-------------Navegador--------------*/
@@ -700,23 +685,26 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*---------------Secciones Index-Mochilas-Valijas-Accesorios--------------------------*/
 .carousel video {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
   height: 50vh;
 }
 
 #productosDestacados h1 {
-  background-color: #f5d3cf;
+  background: #eed5cb;
+  background: #f5d3cf;
+  background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   text-align: center;
   font-family: "Franklin Gothic Medium";
   font-size: 25px;
+  font-weight: bold;
 }
 
 .section2 {
@@ -743,7 +731,7 @@ fieldset {
 
 .destacados img:hover {
   -webkit-transform: scale(1.3, 1.3);
-  transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
 }
 
 .destacados h4 {
@@ -778,7 +766,7 @@ fieldset {
   background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
   text-align: center;
   font-family: "Franklin Gothic Medium";
-  font-size: 28px;
+  font-size: 25px;
 }
 
 /*---------Titulo-"Quienes Somos"---------*/
@@ -824,18 +812,18 @@ fieldset {
   display: grid;
   padding-left: 0 10px;
   -ms-grid-columns: 300px 300px 300px;
-  grid-template-columns: 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px;
   -ms-grid-rows: 300px 300px 300px;
-  grid-template-rows: 300px 300px 300px;
+      grid-template-rows: 300px 300px 300px;
   justify-items: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -905,8 +893,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
   height: auto;
   padding-top: 2rem;
@@ -932,7 +920,7 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*----------Pie de Página----------*/
@@ -943,7 +931,7 @@ fieldset {
   width: 100%;
   height: auto;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   font-family: "Arial Narrow";
   background-color: grey;
   text-align: left;
@@ -955,8 +943,8 @@ fieldset {
     background-color: #4e4e4e;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -983,8 +971,8 @@ fieldset {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   text-align: left;
 }
 
@@ -1031,8 +1019,7 @@ fieldset {
   color: blue;
 }
 
-#rs1,
-#rs2 {
+#rs1, #rs2 {
   color: black;
   text-decoration: none;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -1041,15 +1028,14 @@ fieldset {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
-#rs1:hover,
-#rs2:hover {
+#rs1:hover, #rs2:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 #rs2:hover {
   -webkit-transform: translate(0.5em);
-  transform: translate(0.5em);
+          transform: translate(0.5em);
 }
 
 .email {
@@ -1088,7 +1074,7 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .error {
@@ -1097,14 +1083,14 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .error h1 {
@@ -1136,7 +1122,7 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .formularioLogin {
@@ -1149,11 +1135,11 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .formularioLogin h3 {
@@ -1203,7 +1189,7 @@ fieldset {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .carritoCompra {
@@ -1221,5 +1207,4 @@ fieldset {
   color: blue;
   text-decoration: none;
 }
-
 /*# sourceMappingURL=estilos.css.map */

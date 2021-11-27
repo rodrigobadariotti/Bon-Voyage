@@ -30,10 +30,13 @@ $letra2:25px;
 
 #productosDestacados h1 {
 
-    background-color: $color1;
+    background: rgb(238, 213, 203);
+    background: rgb(245, 211, 207);
+    background: $gradient;
     text-align: center;
     font-family: $font1;
     font-size: $letra2;
+    font-weight: bold;
 
 
 }
@@ -113,7 +116,7 @@ $letra2:25px;
     background: $gradient;
     text-align: center;
     font-family: $font1;
-    font-size: 28px;
+    font-size: $letra2;
 
 }
 

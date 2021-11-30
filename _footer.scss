@@ -33,10 +33,14 @@ $letra1:15px;
 /*--------------Mobil Firts-------------*/
 
 @media only screen and (max-width: 1197px) {
-    .elFooter__enlaces {
+    .elFooter__enlaces{
 
         background-color: rgb(78, 78, 78);
-        flex-direction: column;
+        width: 100%;
+        flex-direction: column;    
+        justify-content: center; 
+        align-items: center; 
+        
     }
 
 
@@ -61,17 +65,19 @@ $letra1:15px;
 
 }
 
+
 .elFooter__enlaces a {
 
-    text-decoration: none;
-    list-style: none;
+    
     font-size: $letra1;
     color: $color3;
     font-family: $font2;
-    font-weight: bold;
     display: flex;
     justify-content: left;
     text-align: left;
+    flex-direction: column;
+    font-weight: bold;
+    
 
 
 }
@@ -79,8 +85,13 @@ $letra1:15px;
 .elFooter__enlaces a:hover {
 
     color: blue;
+    text-decoration: none;
+    
+    
+    
+    
+    
 }
-
 
 .listado {
 
@@ -89,14 +100,15 @@ $letra1:15px;
     font-family: $font2;
     font-weight: bold;
     text-align: left;
-
+    
 
 
 }
 
 .listado a:hover {
     color: blue;
-
+  
+    
 }
 
 
@@ -108,9 +120,11 @@ $letra1:15px;
     color: $color3;
     text-decoration: none;
     font-size: 15px;
+    font-weight: bold;
 
 
 }
+
 
 
 #quieneSomos {
@@ -128,11 +142,13 @@ $letra1:15px;
 #contacto {
     color: $color3;
     text-decoration: none;
+    
 }
 
 #contacto:hover {
 
     color: blue;
+    
 }
 
 
@@ -142,6 +158,7 @@ $letra1:15px;
     color: $color3;
     text-decoration: none;
     transition: transform 0.5s ease;
+   
 
 }
 

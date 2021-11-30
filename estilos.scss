@@ -196,15 +196,19 @@ $letra2:25px;
 
 }
 
-#productosDestacados h3 {
+#productosDestacados h1 {
 
-    background-color: $color1;
+    background: rgb(238, 213, 203);
+    background: rgb(245, 211, 207);
+    background: $gradient;
     text-align: center;
     font-family: $font1;
     font-size: $letra2;
+    font-weight: bold;
 
 
 }
+
 
 /*---------------Secciones Index-Mochilas-Valijas-Accesorios--------------------------*/
 .section2 {
@@ -273,17 +277,36 @@ $letra2:25px;
 
 
 
-#todosLosProductos h3 {
+#todosLosProductos h1 {
 
     background: $color1;
     background: rgb(245, 211, 207);
     background: $gradient;
     text-align: center;
     font-family: $font1;
-    font-size: 28px;
+    font-size: $letra2;
 
 }
 
+@media only screen and (max-width: 400px) {
+    .container {
+
+        display: none;
+        width: 0%;
+        height: 0%;
+
+    }
+    #todosLosProductos h1{
+
+        display: none;
+        width: 0%;
+        height: 0%;
+
+    }    
+
+    
+
+}
 /*---------Titulo-"Quienes Somos"---------*/
 
 

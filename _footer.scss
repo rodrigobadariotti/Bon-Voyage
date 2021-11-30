@@ -24,7 +24,9 @@ $letra1:15px;
     justify-content: space-around;
     font-family: $font2;
     background-color: $color4;
-    text-align: left;
+    text-align: center;
+
+
 
 
 }
@@ -33,11 +35,13 @@ $letra1:15px;
 /*--------------Mobil Firts-------------*/
 
 @media only screen and (max-width: 1197px) {
-    .elFooter__enlaces{
+    .elFooter__enlaces {
 
         background-color: rgb(78, 78, 78);
-              
-        
+        justify-content: center;
+        align-items: center;
+
+
     }
 
 
@@ -65,7 +69,7 @@ $letra1:15px;
 
 .elFooter__enlaces a {
 
-    
+
     font-size: $letra1;
     color: $color3;
     font-family: $font2;
@@ -74,7 +78,9 @@ $letra1:15px;
     text-align: left;
     flex-direction: column;
     font-weight: bold;
-    
+    text-align: center;
+
+
 
 
 }
@@ -83,11 +89,11 @@ $letra1:15px;
 
     color: blue;
     text-decoration: none;
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
 .listado {
@@ -97,27 +103,30 @@ $letra1:15px;
     font-family: $font2;
     font-weight: bold;
     text-align: left;
-    
+
+
 
 
 }
 
 .listado a:hover {
     color: blue;
-  
-    
+
+
+
 }
 
 
 .elFooter li {
 
     margin: 15px;
-    text-align: left;
+    text-align: center;
     list-style: none;
     color: $color3;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
+
 
 
 }
@@ -139,13 +148,13 @@ $letra1:15px;
 #contacto {
     color: $color3;
     text-decoration: none;
-    
+
 }
 
 #contacto:hover {
 
     color: blue;
-    
+
 }
 
 
@@ -155,7 +164,7 @@ $letra1:15px;
     color: $color3;
     text-decoration: none;
     transition: transform 0.5s ease;
-   
+
 
 }
 
@@ -187,12 +196,6 @@ $letra1:15px;
     font-weight: bold;
 
 
-}
-
-.footeer__iframe {
-
-    height: 25%;
-    width: 100%;
 
 
 }
@@ -205,8 +208,9 @@ $letra1:15px;
     font-family: $font2;
     font-weight: bold;
     font-size: 15px;
-    margin-right: 100px;
+    margin-right: 10px;
     padding-bottom: 5%;
+
 
 
 }
@@ -215,5 +219,25 @@ $letra1:15px;
 
     color: blue;
 
+
+}
+
+.inicio {
+
+    color: $color3;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font2;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 10px;
+
+
+
+}
+
+.inicio:hover {
+
+    color: blue;
 
 }

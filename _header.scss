@@ -85,20 +85,51 @@ $letra1:15px;
 }
 
 .encabezado {
+
     display: flex;
-    justify-content: space-between;
-    align-items: flex end;
-    background-color: $color2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(238, 213, 203);
+    background: rgb(245, 211, 207);
+    background: $gradient;
+
+
 
 
 }
 
+.encabezado a {
+
+    color: black;
+    font-size: 60px;
+
+
+
+}
+
+.encabezado a:hover {
+
+    text-decoration: none;
+    color: gray;
+
+
+
+}
+
+
+
 /*--------------Mobil Firts-------------*/
 
-@media only screen and (min-width: 1200px) {
-    .encabezado {
+@media only screen and (max-width: 500px) {
+    .encabezado a {
+        text-align: center;
 
-        background-color: $color2;
+
     }
 
 }
@@ -107,11 +138,11 @@ $letra1:15px;
 .encabezado__botton--imgTransition {
     display: flex;
     align-items: flex-end;
-    height: 15px;
-    width: 10%;
-    padding-top: 30px;
-    margin-top: 160px;
+    justify-content: flex-end;
+    margin-left: 87%;
+    margin-top: 10px;
     transition: transform 0.5s ease;
+
 
 
 }
@@ -131,19 +162,29 @@ $letra1:15px;
 
 
 @media only screen and (max-width: 768px) {
-    .encabezado__botton--imgTransition {
+    .encabezado__botton--imgTransition img {
 
-        background-color: $color2;
-        text-align: center;
-        align-items: center;
-        display: table-column;
-        height: auto;
-        width: auto;
-        padding-bottom: 3rem;
+        display: flex;
+        width: 25px;
+
+
 
     }
 
 }
+
+@media only screen and (max-width: 500px) {
+    .encabezado__botton--imgTransition img {
+
+        display: flex;
+        width: 20px;
+
+
+
+    }
+
+}
+
 
 
 .encabezado__botton--imgTransition li {

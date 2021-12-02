@@ -607,19 +607,39 @@ fieldset {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: flex end;
-      -ms-flex-align: flex end;
-          align-items: flex end;
-  background-color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #eed5cb;
+  background: #f5d3cf;
+  background: linear-gradient(11deg, #f5d3cf 0%, rgba(172, 165, 164, 0.98) 50%, #cc7f75 100%);
+}
+
+.encabezado a {
+  color: black;
+  font-size: 60px;
+}
+
+.encabezado a:hover {
+  text-decoration: none;
+  color: gray;
 }
 
 /*--------------Mobil Firts-------------*/
-@media only screen and (min-width: 1200px) {
-  .encabezado {
-    background-color: white;
+@media only screen and (max-width: 500px) {
+  .encabezado a {
+    text-align: center;
   }
 }
 
@@ -630,10 +650,11 @@ fieldset {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  height: 15px;
-  width: 10%;
-  padding-top: 30px;
-  margin-top: 160px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-left: 87%;
+  margin-top: 10px;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
@@ -652,16 +673,20 @@ fieldset {
 
 /*--------------Mobil Firts-------------*/
 @media only screen and (max-width: 768px) {
-  .encabezado__botton--imgTransition {
-    background-color: white;
-    text-align: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: table-column;
-    height: auto;
-    width: auto;
-    padding-bottom: 3rem;
+  .encabezado__botton--imgTransition img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .encabezado__botton--imgTransition img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20px;
   }
 }
 
@@ -1034,6 +1059,15 @@ fieldset {
   color: blue;
 }
 
+.listado2 {
+  font-size: 15px;
+  margin-right: 0rem;
+  font-family: "Arial Narrow";
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
 .elFooter li {
   margin: 15px;
   text-align: center;
@@ -1120,6 +1154,13 @@ fieldset {
 
 .inicio:hover {
   color: blue;
+}
+
+@media only screen and (max-width: 300px) {
+  .footer__iframe {
+    width: 200px;
+    height: 150px;
+  }
 }
 
 * {

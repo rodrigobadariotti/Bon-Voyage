@@ -29,6 +29,7 @@ $letra1:15px;
 
 
 
+
 }
 
 
@@ -83,6 +84,7 @@ $letra1:15px;
 
 
 
+
 }
 
 .elFooter__enlaces a:hover {
@@ -112,6 +114,18 @@ $letra1:15px;
 .listado a:hover {
     color: blue;
 
+
+
+}
+
+.listado2 {
+
+    font-size: $letra1;
+    margin-right: 0rem;
+    font-family: $font2;
+    font-weight: bold;
+    text-align: center;
+    color: black;
 
 
 }
@@ -148,6 +162,7 @@ $letra1:15px;
 #contacto {
     color: $color3;
     text-decoration: none;
+
 
 }
 
@@ -198,6 +213,7 @@ $letra1:15px;
 
 
 
+
 }
 
 .subir {
@@ -240,4 +256,13 @@ $letra1:15px;
 
     color: blue;
 
+}
+
+@media only screen and (max-width: 300px) {
+    .footer__iframe {
+
+        width: 200px;
+        height: 150px;
+
+    }
 }

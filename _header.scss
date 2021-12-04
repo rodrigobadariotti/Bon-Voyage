@@ -95,7 +95,7 @@ $letra1:15px;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: rgb(238, 213, 203);
-    background: rgb(245, 211, 207);
+    background: $color1;
     background: $gradient;
 
 
@@ -128,6 +128,7 @@ $letra1:15px;
 @media only screen and (max-width: 500px) {
     .encabezado a {
         text-align: center;
+        font-size: 50px;
 
 
     }
@@ -184,8 +185,6 @@ $letra1:15px;
     }
 
 }
-
-
 
 .encabezado__botton--imgTransition li {
 
